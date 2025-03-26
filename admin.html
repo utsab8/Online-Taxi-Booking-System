@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <h2>Library Admin</h2>
+            </div>
+            <nav>
+                <a href="#" class="active">Dashboard</a>
+                <a href="books.html">Books</a>
+                <a href="members.html">Members</a>
+                <a href="issue-book.html">Issue Book</a>
+                <a href="return-book.html">Return Book</a>
+                <a href="reports.html">Reports</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main">
+            <header class="top-bar">
+                <h1>Dashboard Overview</h1>
+                <div class="admin-info">
+                    <span>Admin Name</span>
+                </div>
+            </header>
+
+            <!-- Stats Cards -->
+            <div class="stats">
+                <div class="stat-card">
+                    <h3>Total Books</h3>
+                    <p>1,250</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Members</h3>
+                    <p>842</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Books Issued</h3>
+                    <p>150</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Due Returns</h3>
+                    <p>25</p>
+                </div>
+            </div>
+
+            <!-- Recent Books Section -->
+            <section class="content-section">
+                <h2>Recently Added Books</h2>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Book Name</th>
+                            <th>Author</th>
+                            <th>Category</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>The Great Gatsby</td>
+                            <td>F. Scott Fitzgerald</td>
+                            <td>Fiction</td>
+                            <td>Available</td>
+                        </tr>
+                        <tr>
+                            <td>To Kill a Mockingbird</td>
+                            <td>Harper Lee</td>
+                            <td>Fiction</td>
+                            <td>Issued</td>
+                        </tr>
+                        <tr>
+                            <td>1984</td>
+                            <td>George Orwell</td>
+                            <td>Fiction</td>
+                            <td>Available</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Recent Issues Section -->
+            <section class="content-section">
+                <h2>Recent Book Issues</h2>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Member Name</th>
+                            <th>Book Name</th>
+                            <th>Issue Date</th>
+                            <th>Due Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Smith</td>
+                            <td>To Kill a Mockingbird</td>
+                            <td>2024-01-10</td>
+                            <td>2024-01-24</td>
+                        </tr>
+                        <tr>
+                            <td>Sarah Johnson</td>
+                            <td>Pride and Prejudice</td>
+                            <td>2024-01-12</td>
+                            <td>2024-01-26</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
